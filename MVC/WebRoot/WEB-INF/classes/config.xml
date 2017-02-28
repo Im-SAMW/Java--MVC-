@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<models>
+	<!-- 处理登录的业务模型 -->
+	<model id="login">
+		<model-class>com.niit.model.LoginModel</model-class>
+		<forward name="success">WEB-INF/success.jsp</forward>
+		<forward name="error">WEB-INF/error.jsp</forward>
+	</model>
+	<model id="regist">
+		<model-class>com.niit.model.RegistModel</model-class>
+		<forward name="success">WEB-INF/index.jsp</forward>
+	</model>
+</models>
